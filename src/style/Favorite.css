@@ -1,0 +1,42 @@
+/* Favorites.css */
+
+.favorites {
+  padding: 24px;
+  background-color: #12121c;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.favorites h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.favorites-empty {
+  padding: 24px;
+  background-color: #12121c;
+  min-height: 100vh;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.favorites-empty h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  color: #ff4d6d;
+}
+
+.favorites-empty p {
+  color: #bbbbcc;
+  font-size: 1rem;
+}
